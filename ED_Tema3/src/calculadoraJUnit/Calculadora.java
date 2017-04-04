@@ -72,5 +72,5 @@ public class Calculadora {
 		this.numero2 = numero2;
 	}
 	  
-	 
+	System.out.println("me llamo paco");
 }
