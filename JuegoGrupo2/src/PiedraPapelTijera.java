@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Juego1 {
+public class PiedraPapelTijera {
 	public static void main(String[] ar) {
 		  Scanner teclado=new Scanner(System.in);
 		  String usu,cpu;
