@@ -1,6 +1,15 @@
+
 import java.util.Scanner;
 
+/**
+ * Juego Piedra, papel o tijeras 
+ * @author Mamen
+ *
+ */
 public class PiedraPapelTijera {
+	/**
+	 * metodo que realiza el juego
+	 */
 	 public void juego1(){
 		  Scanner teclado=new Scanner(System.in);
 		  String usu,cpu;
@@ -8,6 +17,9 @@ public class PiedraPapelTijera {
 		  
 		        System.out.println("Elige:");
 		  usu=teclado.next();
+		  /**
+		   * Genera aleatoriamente la cpu
+		   */
 		  int num = (int) Math.floor(Math.random()*(2-0+1)+0);   cpu = opc[num];
 		  switch (usu) {
 		   case "piedra":
