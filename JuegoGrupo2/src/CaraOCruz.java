@@ -1,6 +1,17 @@
 
+/**
+ *
+ * @author Raul
+ *
+ */
 public class CaraOCruz {
-	 public static void caracruz(String[] args){
+		 
+		 
+		/**
+		 * Juego que lanza la moneda
+		 */
+		 	public void caraOCruz(){
+	
 		   
 		   int aleatorio = (int)(Math.random()*100);
 		   

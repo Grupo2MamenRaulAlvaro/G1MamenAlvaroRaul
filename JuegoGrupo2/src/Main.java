@@ -25,13 +25,15 @@ public class Main {
 
 		if (opcion == 1){
 			
-			AcertarNumero juego1 =new AcertarNumero();
-			juego1.juego();
+			// Yo Mamen subo mi mail modificado cuando solucione el 
+			//problema.
+			//PiedraPapelTijera juego1 =new PiedraPapelTijera();
+			// juego1.juego1();
 			
 		}else if(opcion == 2){
 			
-			AcertarNumero juego2 =new AcertarNumero();
-			juego2.juego();
+			CaraOCruz juego2 =new CaraOCruz();
+			juego2.caraOCruz();
 			
 		}else if(opcion == 3){
 			AcertarNumero juego3 =new AcertarNumero();
