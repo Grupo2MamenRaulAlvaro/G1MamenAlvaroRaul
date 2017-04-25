@@ -16,7 +16,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		/**
-		 * Opciones que aparcen por consola para que el usuario elija alguna de ellas
+		 * Menu de las diferentes opciones del juego
 		 */
 		int opcion = 1;
 		while(opcion != 0){
@@ -34,7 +34,7 @@ public class Main {
 
 
 			/**
-			 * Condiciones que debe 
+			 * Condiciones que deben de cumplir para poder elegir un juego
 			 */
 			if (opcion == 1){
 				
