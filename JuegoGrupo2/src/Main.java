@@ -25,10 +25,9 @@ public class Main {
 
 		if (opcion == 1){
 			
-			// Yo Mamen subo mi mail modificado cuando solucione el 
-			//problema.
-			//PiedraPapelTijera juego1 =new PiedraPapelTijera();
-			// juego1.juego1();
+			
+			PiedraPapelTijera juego1 =new PiedraPapelTijera();
+			 juego1.juego1();
 			
 		}else if(opcion == 2){
 			

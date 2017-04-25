@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PiedraPapelTijera {
-	public static void main(String[] ar) {
+	 public void juego1(){
 		  Scanner teclado=new Scanner(System.in);
 		  String usu,cpu;
 		  String[] opc={"piedra","papel","tijeras"};
@@ -53,5 +53,8 @@ public class PiedraPapelTijera {
 		          System.out.println("Incorrecto");
 		          break;
 		  }
-		 }
+	 }
 }
+		  
+		 
+
